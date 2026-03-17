@@ -19,7 +19,6 @@ app.use(express.json()); // Parses incoming JSON requests
 app.use(cors({
     origin: [
         "http://localhost:3500",      // Local Frontend
-        "http://localhost:5173",      // Vite Default Port
         "https://ai-resume-builder-frontend-ten.vercel.app"
     ],
     credentials: true,                // Allows Cookies & Authorization Headers
